@@ -30,10 +30,12 @@ def iqr(n,elements,frequency):
         frac1,whole1=math.modf(b)
         whole1=int(whole1-1)
         q3=bb[b]
+        print("Quartile 1 : ",int(q1))
+        print("Quartile 3 : ",q3)
 
     return q3-q1
 
 n = 15
 number = [10,40,30,50,20]
 freq = [1,2,3,4,5]
-print(iqr(n,number,freq))
+print("Interquartile Range : ",iqr(n,number,freq))
