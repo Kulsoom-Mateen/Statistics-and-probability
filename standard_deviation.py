@@ -20,5 +20,5 @@ def mean(n,number):
 n = int()
 number = [10,40,30,50,20] 
 n=5
-print("List is : ",number)
+print("Given list is : ",number)
 print("Standard deviation of given list is : ",mean(n,number))
